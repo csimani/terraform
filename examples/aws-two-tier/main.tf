@@ -1,8 +1,7 @@
 # Specify the provider and access details
 provider "aws" {
-    access_key = "AKIAJMKQKTL42PY5EAGA"
-    secret_key = "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"
-    region = "us-west-2"  
+    
+    Region = "us-west-2"  
 }
 
 # Create a VPC to launch our instances into
